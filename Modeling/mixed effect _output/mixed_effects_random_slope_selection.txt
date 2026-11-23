@@ -1,0 +1,1 @@
+[1] "Selected the random-intercept model; the random-slope model did not meet all fitting, singularity, AIC, and likelihood-ratio criteria."

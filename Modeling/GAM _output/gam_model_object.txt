@@ -1,0 +1,15 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+production_1000_qt ~ region + s(governorate, bs = "re") + s(temp_dec_c, 
+    k = 5, bs = "tp") + s(sm_z, k = 5, bs = "tp") + s(rain_jan_mar_mm, 
+    k = 5, bs = "tp") + s(ndvi_mean, by = region, k = 4, bs = "tp") + 
+    s(vhi, by = region, k = 4, bs = "tp")
+
+Estimated degrees of freedom:
+12.5720  0.6396  0.0001  0.9580  0.0001  0.0002  1.5248 
+ 0.0031  total = 17.7 
+
+REML score: 982.5519     

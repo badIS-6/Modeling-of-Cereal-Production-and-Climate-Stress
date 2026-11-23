@@ -1,0 +1,4 @@
+governorate = pdLogChol(1) 
+            Variance  StdDev  
+(Intercept) 259740.93 509.6478
+Residual     77966.69 279.2252

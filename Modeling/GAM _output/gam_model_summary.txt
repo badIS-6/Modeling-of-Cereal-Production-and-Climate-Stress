@@ -1,0 +1,32 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+production_1000_qt ~ region + s(governorate, bs = "re") + s(temp_dec_c, 
+    k = 5, bs = "tp") + s(sm_z, k = 5, bs = "tp") + s(rain_jan_mar_mm, 
+    k = 5, bs = "tp") + s(ndvi_mean, by = region, k = 4, bs = "tp") + 
+    s(vhi, by = region, k = 4, bs = "tp")
+
+Parametric coefficients:
+                   Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           785.8      156.4   5.025 1.24e-06 ***
+regionCenter_South   -423.3      231.2  -1.831   0.0688 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Approximate significance of smooth terms:
+                                      edf Ref.df      F  p-value    
+s(governorate)                  1.257e+01     13 39.107  < 2e-16 ***
+s(temp_dec_c)                   6.396e-01      4  7.592 0.100687    
+s(sm_z)                         1.043e-04      4  0.000 0.892514    
+s(rain_jan_mar_mm)              9.580e-01      4 56.551  < 2e-16 ***
+s(ndvi_mean):regionNorth        6.905e-05      3  0.000 0.789382    
+s(ndvi_mean):regionCenter_South 2.011e-04      3  0.000 0.312108    
+s(vhi):regionNorth              1.525e+00      3  9.377 0.000451 ***
+s(vhi):regionCenter_South       3.078e-03      3  0.001 0.246469    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.859   Deviance explained = 87.1%
+-REML = 982.55  Scale est. = 72818     n = 192

@@ -1,0 +1,5 @@
+"Prediction","R2","RMSE","MAE","Selected_model"
+"Conditional - clipped at zero",0.782706519435336,303.559334798719,205.378195449795,"Random intercept"
+"Conditional - unclipped",0.772931009193382,310.312420664767,223.552495663406,"Random intercept"
+"Fixed effects only - clipped at zero",0.375372360497894,514.672357149027,381.533652393015,"Random intercept"
+"Fixed effects only - unclipped",0.374420003917834,515.06456274982,385.429701081535,"Random intercept"
