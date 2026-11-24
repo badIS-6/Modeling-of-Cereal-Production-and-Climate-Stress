@@ -1,4 +1,0 @@
-"Model","File","Rows","Unique_Governorates","First_Year","Last_Year","Prediction_Column","Actual_Column"
-"Mixed Effects","/home/badisz/Downloads/Modeling/mixed effect _output/mixed_effects_test_predictions.csv",89,15,2013,2018,"predicted_conditional","actual"
-"Quantile Regression","/home/badisz/Downloads/Modeling/quantile regression _output/quantile_regression_test_predictions.csv",89,15,2013,2018,"predicted_tau_0_5","actual_production_1000_qt"
-"GAM","/home/badisz/Downloads/Modeling/GAM _output/gam_test_predictions.csv",89,15,2013,2018,"predicted_unclipped","actual"
