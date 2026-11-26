@@ -1,4 +1,0 @@
-"Model","Prediction_Rule","N_Test","First_Test_Year","Last_Test_Year","R2","RMSE","MAE","Metrics_Valid","R2_Rank","RMSE_Rank","MAE_Rank","Combined_Mean_Rank","H1_Candidate","H1_Role"
-"GAM","Unclipped prediction",89,2013,2018,0.783150455803234,303.249086353448,212.365165212217,TRUE,1,1,2,1.33333333333333,TRUE,"Nonlinear partial-H1 supporting candidate"
-"Mixed Effects","Conditional unclipped prediction",89,2013,2018,0.772931009193382,310.312420664767,223.552495663406,TRUE,2,2,3,2.33333333333333,TRUE,"Primary full-H1 inferential candidate"
-"Quantile Regression","Median tau=0.5 unclipped prediction",89,2013,2018,0.762633929454063,317.270406069341,207.762657641283,TRUE,3,3,1,2.33333333333333,TRUE,"Primary partial-H1 inferential candidate"
