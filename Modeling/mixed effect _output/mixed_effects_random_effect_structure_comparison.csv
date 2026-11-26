@@ -1,3 +1,0 @@
-"Model","LogLik","AIC","BIC","Singular","Converged","LRT_vs_random_intercept","Boundary_adjusted_p","Selected"
-"Random intercept",-1376.39133820642,2778.78267641285,2821.13011624921,FALSE,TRUE,NA,NA,TRUE
-"Random intercept plus diagonal soil-moisture random slope",-1376.39133837707,2780.78267675414,2826.38761196253,FALSE,TRUE,0,1,FALSE

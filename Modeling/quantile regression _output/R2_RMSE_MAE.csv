@@ -1,3 +1,0 @@
-"Prediction","R2","RMSE","MAE"
-"Median quantile - clipped at zero",0.765582948165129,315.293374084398,199.254713458101
-"Median quantile - unclipped",0.762633929454063,317.270406069342,207.762657641284

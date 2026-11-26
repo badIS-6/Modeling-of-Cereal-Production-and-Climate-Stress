@@ -1,3 +1,0 @@
-"model","prediction_rule","n_test","R2_test","RMSE","MAE"
-"Pooled OLS baseline","Negative predictions clipped at zero",89,0.412647838445992,499.079268585847,365.820886827793
-"Pooled OLS baseline","Unclipped predictions",89,0.386918779027459,509.893236255865,400.419148375823
