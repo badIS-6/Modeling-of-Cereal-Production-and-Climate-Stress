@@ -1,4 +1,0 @@
-"Model","Prediction_Rule","N_Test","First_Test_Year","Last_Test_Year","R²","RMSE","MAE","Metrics_Valid","R2_Rank","RMSE_Rank","MAE_Rank","Combined_Mean_Rank","H1_Candidate","H1_Role"
-"Mixed Effects","Governorate-conditional nlme prediction; unclipped",89,2013,2018,0.856119298572626,247.013970991216,164.509574612595,TRUE,1,1,1,1,TRUE,"Predictive mixed-effects model with region-specific climate terms; not confirmatory H1 inference"
-"GAM","Unclipped GAM prediction",89,2013,2018,0.783150455803234,303.249086353448,212.365165212217,TRUE,2,2,3,2.33333333333333,TRUE,"Nonlinear supporting candidate; selected smooth terms determine H1 coverage"
-"Quantile Regression","Median quantile tau=0.5; unclipped",89,2013,2018,0.762633929454063,317.270406069341,207.762657641283,TRUE,3,3,2,2.66666666666667,TRUE,"Median-regression candidate for conditional H1 associations"
