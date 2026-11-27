@@ -1,2 +1,0 @@
-"Candidate_ID","Model_Name","Fixed_Specification","Residual_Correlation","Response_Transformation","CV_Rank","CV_RMSE","CV_MAE","CV_R2","AR1_Rho","AR1_Pairs","AR1_Estimated"
-"G03","regional_climate_linear_year__independent__raw","regional_climate_linear_year","independent","raw",1,270.663093334862,191.281523809731,0.854427825221456,0,0,FALSE
