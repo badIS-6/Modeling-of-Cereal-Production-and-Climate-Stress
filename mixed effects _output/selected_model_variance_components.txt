@@ -1,0 +1,5 @@
+governorate = pdDiag(1 + year_c) 
+            Variance    StdDev    
+(Intercept) 0.004983105 0.07059111
+year_c      0.158272632 0.39783493
+Residual    0.401846759 0.63391384

@@ -1,0 +1,2 @@
+"Selected_Candidate_ID","Selected_Model_Name","Fixed_Specification","Response_Transformation","Primary_Quantile","Selection_Method","Training_Start_Year","Training_End_Year","Test_Start_Year","Test_End_Year","Training_N","Test_N","All_Final_Quantiles_Successful","Quantile_Crossing_Rate_Available"
+"Q07","baseline_quadratic__governorate_z","baseline_quadratic","governorate_z",0.5,"Three-fold chronological rolling-origin validation; average RMSE and MAE ranks",2000,2012,2013,2018,192,89,TRUE,TRUE

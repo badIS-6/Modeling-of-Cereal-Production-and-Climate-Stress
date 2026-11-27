@@ -1,0 +1,3 @@
+y_model ~ region * (temp_dec_c + sm_z + ndvi_mean) + I(sm_z^2) + 
+    rain_jan_mar_mm + vhi + year_c
+<environment: 0x571242c43dc0>

@@ -1,0 +1,3 @@
+"Random_Effect","Random_SD","Residual_SD","Random_to_Residual_SD_Ratio","Boundary_Flag"
+"(Intercept)",0.07059111,0.63391384,0.111357578184442,FALSE
+"year_c",0.39783493,0.63391384,0.627585177821642,FALSE

@@ -1,0 +1,6 @@
+This is a chronological forecasting model fitted on 2000-2012 and evaluated on 2013-2018.
+All candidate formulas estimate region-specific smooth responses for December temperature and standardized soil moisture.
+Rolling-origin validation is used only within the training period for candidate selection.
+The test-period predictors are observed values; the results are retrospective conditional predictions, not forecasts of future climate predictors.
+The parametric and smooth p-values exported from mgcv are model summaries, not governorate-clustered H1 inference.
+Use the separate full-period inference workflow for H1 tests, confidence intervals, regional contrasts and multiple-testing correction.

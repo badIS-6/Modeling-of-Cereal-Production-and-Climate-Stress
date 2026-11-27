@@ -1,0 +1,6 @@
+y_model ~ region + s(governorate, bs = "re") + s(temp_dec_c, 
+    by = region, k = 4, bs = "tp", id = 1) + s(sm_z, by = region, 
+    k = 4, bs = "tp", id = 2) + s(rain_jan_mar_mm, k = 5, bs = "tp") + 
+    s(ndvi_mean, k = 5, bs = "tp") + s(vhi, k = 5, bs = "tp") + 
+    year_c
+<environment: 0x5e0c0aee5370>

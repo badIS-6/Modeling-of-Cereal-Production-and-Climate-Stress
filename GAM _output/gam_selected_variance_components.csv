@@ -1,0 +1,16 @@
+"Term","Variance_Component"
+"s(governorate)",406.565915220342
+"s(temp_dec_c):regionNorth1",45.8629156658915
+"s(temp_dec_c):regionNorth2",0.68559861175646
+"s(temp_dec_c):regionCenter_South1",45.8629156658915
+"s(temp_dec_c):regionCenter_South2",0.68559861175646
+"s(sm_z):regionNorth1",0.748015761101799
+"s(sm_z):regionNorth2",12.4299895269792
+"s(sm_z):regionCenter_South1",0.748015761101799
+"s(sm_z):regionCenter_South2",12.4299895269792
+"s(rain_jan_mar_mm)1",0.0300150660842606
+"s(rain_jan_mar_mm)2",213.825427713324
+"s(ndvi_mean)1",31.9996584569099
+"s(ndvi_mean)2",1.07392926816736
+"s(vhi)1",933.708504660258
+"s(vhi)2",51.5656075820786

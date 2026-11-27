@@ -1,0 +1,16 @@
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+y_model ~ region + s(governorate, bs = "re") + s(temp_dec_c, 
+    by = region, k = 4, bs = "tp", id = 1) + s(sm_z, by = region, 
+    k = 4, bs = "tp", id = 2) + s(rain_jan_mar_mm, k = 5, bs = "tp") + 
+    s(ndvi_mean, k = 5, bs = "tp") + s(vhi, k = 5, bs = "tp") + 
+    year_c
+
+Estimated degrees of freedom:
+12.3956  1.2117  1.3874  0.1501  0.1477  1.0407  0.0006 
+ 1.8630  total = 21.2 
+
+fREML score: 975.054     

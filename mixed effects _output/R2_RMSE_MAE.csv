@@ -1,0 +1,4 @@
+"Prediction","N","R2","RMSE","MAE","Mean_Error"
+"Selected mixed-effects model - unclipped",89,0.856119298572626,247.013970991216,164.509574612595,-41.6514820229634
+"Selected mixed-effects model - clipped at zero",89,0.860797641318637,242.96490206167,158.361048588703,-35.502955999072
+"Governorate-specific training-period mean baseline",89,0.774536183064951,309.213660321919,207.446581964852,110.040668107174
