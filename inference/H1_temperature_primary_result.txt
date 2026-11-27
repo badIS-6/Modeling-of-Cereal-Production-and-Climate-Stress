@@ -1,0 +1,5 @@
+PRIMARY H1 RESULT — DECEMBER TEMPERATURE
+
+PRIMARY RESULT — DECEMBER TEMPERATURE: SUPPORTED. At least two of the three fitted models show a negative production-scale response to a +1 C December-temperature scenario, with governorate-bootstrap directional stability at or above the predefined 90% threshold and at least 70% common-support coverage.
+
+Overall H1 classification: FULL H1 SUPPORT

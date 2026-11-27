@@ -1,0 +1,91 @@
+"model","stressor","omitted_governorate","mean_change_after_omission_1000_qt","expected_negative_direction_retained"
+"GAM","Warmer December (+1 C)","Béja",-23.442567578018,TRUE
+"GAM","Warmer December (+1 C)","Gabès",-29.9551181436854,TRUE
+"GAM","Warmer December (+1 C)","Gafsa",-28.8143381730691,TRUE
+"GAM","Warmer December (+1 C)","Jendouba",-23.4495637763786,TRUE
+"GAM","Warmer December (+1 C)","Kairouan",-29.7258494277555,TRUE
+"GAM","Warmer December (+1 C)","Kasserine",-27.5444684440093,TRUE
+"GAM","Warmer December (+1 C)","Le Kef",-28.8822108147225,TRUE
+"GAM","Warmer December (+1 C)","Manouba",-21.7054129435322,TRUE
+"GAM","Warmer December (+1 C)","Medenine",-29.833545539841,TRUE
+"GAM","Warmer December (+1 C)","Nabeul",-21.9293007432314,TRUE
+"GAM","Warmer December (+1 C)","Sidi Bouzid",-29.1211863617627,TRUE
+"GAM","Warmer December (+1 C)","Siliana",-27.7042071371936,TRUE
+"GAM","Warmer December (+1 C)","Sousse",-29.9166135323605,TRUE
+"GAM","Warmer December (+1 C)","Tunis",-21.7261210947709,TRUE
+"GAM","Warmer December (+1 C)","Zaghouan",-22.8272067875098,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Béja",-2.17029608665208,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Gabès",-2.45712397004124,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Gafsa",-2.45712470402168,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Jendouba",-2.17027752269797,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Kairouan",-2.45712157127481,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Kasserine",-2.4571231686464,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Le Kef",-2.17028422371092,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Manouba",-2.17027539014891,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Medenine",-2.45712807300834,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Nabeul",-2.17023788423408,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Sidi Bouzid",-2.45712702630584,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Siliana",-2.17030867187711,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Sousse",-2.45712574440808,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Tunis",-2.17032037045802,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","Zaghouan",-2.17032458333868,TRUE
+"QR","Warmer December (+1 C)","Béja",-6.79858391460823,TRUE
+"QR","Warmer December (+1 C)","Gabès",-8.14567888905919,TRUE
+"QR","Warmer December (+1 C)","Gafsa",-8.02011718958454,TRUE
+"QR","Warmer December (+1 C)","Jendouba",-7.3362713871342,TRUE
+"QR","Warmer December (+1 C)","Kairouan",-7.67433891895433,TRUE
+"QR","Warmer December (+1 C)","Kasserine",-7.64394975531603,TRUE
+"QR","Warmer December (+1 C)","Le Kef",-6.59561130060356,TRUE
+"QR","Warmer December (+1 C)","Manouba",-7.84953891231834,TRUE
+"QR","Warmer December (+1 C)","Medenine",-8.17024835725574,TRUE
+"QR","Warmer December (+1 C)","Nabeul",-8.00464741452348,TRUE
+"QR","Warmer December (+1 C)","Sidi Bouzid",-7.79961503196372,TRUE
+"QR","Warmer December (+1 C)","Siliana",-6.7098783335802,TRUE
+"QR","Warmer December (+1 C)","Sousse",-7.96064849253336,TRUE
+"QR","Warmer December (+1 C)","Tunis",-8.16296728132334,TRUE
+"QR","Warmer December (+1 C)","Zaghouan",-7.62520674684809,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Béja",-19.4761572801714,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Gabès",-21.862605939357,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Gafsa",-21.177819314328,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Jendouba",-20.4869107147827,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Kairouan",-19.5841548959603,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Kasserine",-19.2837129174053,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Le Kef",-19.0421436099985,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Manouba",-21.3897007763009,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Medenine",-21.9958367639315,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Nabeul",-21.6412995287864,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Sidi Bouzid",-19.9565561722083,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Siliana",-18.9773284465829,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Sousse",-20.8367228938295,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Tunis",-22.008469810023,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","Zaghouan",-20.8830631992754,TRUE
+"MIXED","Warmer December (+1 C)","Béja",-6.61897229846207,TRUE
+"MIXED","Warmer December (+1 C)","Gabès",-7.77351045887559,TRUE
+"MIXED","Warmer December (+1 C)","Gafsa",-7.61493167809419,TRUE
+"MIXED","Warmer December (+1 C)","Jendouba",-7.08497372241681,TRUE
+"MIXED","Warmer December (+1 C)","Kairouan",-7.1782292695838,TRUE
+"MIXED","Warmer December (+1 C)","Kasserine",-7.13984912230251,TRUE
+"MIXED","Warmer December (+1 C)","Le Kef",-6.44306058025586,TRUE
+"MIXED","Warmer December (+1 C)","Manouba",-7.5298109370201,TRUE
+"MIXED","Warmer December (+1 C)","Medenine",-7.80454059248605,TRUE
+"MIXED","Warmer December (+1 C)","Nabeul",-7.66423992521193,TRUE
+"MIXED","Warmer December (+1 C)","Sidi Bouzid",-7.33644736750046,TRUE
+"MIXED","Warmer December (+1 C)","Siliana",-6.54209320199065,TRUE
+"MIXED","Warmer December (+1 C)","Sousse",-7.53982538762114,TRUE
+"MIXED","Warmer December (+1 C)","Tunis",-7.80145212958497,TRUE
+"MIXED","Warmer December (+1 C)","Zaghouan",-7.33538738451129,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Béja",-21.9347492244863,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Gabès",-24.594143867859,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Gafsa",-23.8316209971982,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Jendouba",-23.0720919442386,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Kairouan",-22.3430875260996,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Kasserine",-21.8766437885398,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Le Kef",-21.3956255257923,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Manouba",-24.0279134544817,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Medenine",-24.7417490939065,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Nabeul",-24.2723490104295,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Sidi Bouzid",-22.4534197049083,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Siliana",-21.0521877319258,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Sousse",-23.4353865672815,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Tunis",-24.7527961918505,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","Zaghouan",-23.3756564430499,TRUE

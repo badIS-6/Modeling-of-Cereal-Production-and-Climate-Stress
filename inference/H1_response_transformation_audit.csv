@@ -1,0 +1,4 @@
+"model","model_file","metadata_bundle","response_expression","response_transformation","inverse_mapping","monotone_increasing_inverse_verified","production_scale"
+"GAM","gam_forecasting_selected_model.rds","gam_forecasting_complete_object.rds","y_model","raw","Identity: y_model is production_1000_qt.",TRUE,"production_1000_qt"
+"QR","quantile_regression_median_model.rds","quantile_regression_forecasting_bundle.rds","y_model","governorate_z","Monotone governorate-specific affine inverse using saved training production mean and SD.",TRUE,"production_1000_qt"
+"MIXED","mixed_effects_optimized_durum_wheat_model.rds","mixed_effects_forecast_bundle.rds","y_model","governorate_z","Monotone governorate-specific affine inverse using saved training production mean and SD.",TRUE,"production_1000_qt"

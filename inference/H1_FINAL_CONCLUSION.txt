@@ -1,0 +1,108 @@
+MODEL-BASED H1 INFERENCE — FINAL CONCLUSION
+
+OVERALL CLASSIFICATION: FULL H1 SUPPORT
+The model-based evidence supports all operationalized H1 components: warmer December temperatures and worse autumn soil moisture each reduce predicted durum-wheat production, and at least one of these climate sensitivities differs reproducibly between North and Center/South.
+
+PRIMARY RESULT — DECEMBER TEMPERATURE: SUPPORTED. At least two of the three fitted models show a negative production-scale response to a +1 C December-temperature scenario, with governorate-bootstrap directional stability at or above the predefined 90% threshold and at least 70% common-support coverage.
+
+COMPONENT DECISION TABLE
+                               stressor models_assessed models_supporting_expected_negative_production_effect required_model_count
+                 Warmer December (+1 C)               3                                                     3                    2
+ Worse autumn soil moisture (-0.5 sm_z)               3                                                     3                    2
+ required_bootstrap_directional_stability minimum_scenario_coverage_pct component_supported supporting_models
+                                      0.9                            70                TRUE    GAM; QR; MIXED
+                                      0.9                            70                TRUE    GAM; QR; MIXED
+
+REGIONAL HETEROGENEITY DECISION TABLE
+                               stressor models_assessed models_with_95pct_regional_contrast_interval_excluding_zero
+                 Warmer December (+1 C)               3                                                           2
+ Worse autumn soil moisture (-0.5 sm_z)               3                                                           1
+ models_agreeing_on_contrast_direction required_model_count regional_heterogeneity_supported north_more_negative
+                                     2                    2                             TRUE                TRUE
+                                     1                    2                            FALSE                  NA
+
+RESPONSE TRANSFORMATION VERIFICATION
+ model                                    model_file                            metadata_bundle response_expression response_transformation
+   GAM            gam_forecasting_selected_model.rds        gam_forecasting_complete_object.rds             y_model                     raw
+    QR          quantile_regression_median_model.rds quantile_regression_forecasting_bundle.rds             y_model           governorate_z
+ MIXED mixed_effects_optimized_durum_wheat_model.rds          mixed_effects_forecast_bundle.rds             y_model           governorate_z
+                                                                           inverse_mapping monotone_increasing_inverse_verified
+                                                  Identity: y_model is production_1000_qt.                                 TRUE
+ Monotone governorate-specific affine inverse using saved training production mean and SD.                                 TRUE
+ Monotone governorate-specific affine inverse using saved training production mean and SD.                                 TRUE
+   production_scale
+ production_1000_qt
+ production_1000_qt
+ production_1000_qt
+
+MODEL-SPECIFIC PRODUCTION-SCALE EFFECTS
+ model                               stressor response_transformation       effect_scale n_original n_eligible coverage_pct governorates
+   GAM                 Warmer December (+1 C)                     raw production_1000_qt        192        170     88.54167           15
+   GAM Worse autumn soil moisture (-0.5 sm_z)                     raw production_1000_qt        192        158     82.29167           15
+    QR                 Warmer December (+1 C)           governorate_z production_1000_qt        192        170     88.54167           15
+    QR Worse autumn soil moisture (-0.5 sm_z)           governorate_z production_1000_qt        192        158     82.29167           15
+ MIXED                 Warmer December (+1 C)           governorate_z production_1000_qt        192        170     88.54167           15
+ MIXED Worse autumn soil moisture (-0.5 sm_z)           governorate_z production_1000_qt        192        158     82.29167           15
+ baseline_mean_prediction stressed_mean_prediction mean_change_1000_qt mean_change_pct median_governorate_change_1000_qt bootstrap_ci_95_low
+                 592.0764                 565.6379          -26.438514      -4.4653887                         -8.718811          -50.575832
+                 604.8013                 602.4972           -2.304147      -0.3809758                         -4.177655           -3.374998
+                 562.3994                 554.7663           -7.633153      -1.3572477                         -5.302691          -11.607176
+                 588.0832                 567.5097          -20.573499      -3.4983994                        -16.888362          -28.042724
+                 595.1503                 587.8565           -7.293822      -1.2255428                         -6.697061          -10.611051
+                 626.7050                 603.5610          -23.143961      -3.6929597                        -19.900231          -31.566133
+ bootstrap_ci_95_high bootstrap_negative_direction_pct bootstrap_positive_direction_pct bootstrap_ci_upper_below_zero
+            -4.118266                               99                                1                          TRUE
+            -1.233376                              100                                0                          TRUE
+            -4.116085                              100                                0                          TRUE
+           -13.470757                              100                                0                          TRUE
+            -4.347124                              100                                0                          TRUE
+           -14.959619                              100                                0                          TRUE
+ loo_negative_direction_pct loo_negative_stability_threshold_pct model_component_supported
+                        100                                   80                      TRUE
+                        100                                   80                      TRUE
+                        100                                   80                      TRUE
+                        100                                   80                      TRUE
+                        100                                   80                      TRUE
+                        100                                   80                      TRUE
+
+MODEL-SPECIFIC NORTH MINUS CENTER/SOUTH CONTRASTS
+ model                               stressor                        contrast north_governorates center_south_governorates
+   GAM                 Warmer December (+1 C) North minus Center/South effect                  8                         7
+   GAM Worse autumn soil moisture (-0.5 sm_z) North minus Center/South effect                  8                         7
+    QR                 Warmer December (+1 C) North minus Center/South effect                  8                         7
+    QR Worse autumn soil moisture (-0.5 sm_z) North minus Center/South effect                  8                         7
+ MIXED                 Warmer December (+1 C) North minus Center/South effect                  8                         7
+ MIXED Worse autumn soil moisture (-0.5 sm_z) North minus Center/South effect                  8                         7
+ north_minus_center_south_1000_qt bootstrap_ci_95_low bootstrap_ci_95_high bootstrap_sign_stability_pct regional_heterogeneity_supported
+                       -74.405705          -98.633790          -46.1240252                        100.0                             TRUE
+                        -4.015680           -4.015957           -4.0154426                        100.0                             TRUE
+                        -7.434459          -13.216259           -1.2345363                         99.0                             TRUE
+                        -2.560939          -17.923184           11.9727904                         62.6                            FALSE
+                        -4.989685          -10.463512            0.4085324                         96.2                            FALSE
+                        -4.756206          -21.174252           11.4469506                         71.9                            FALSE
+
+PRE-SPECIFIED MODEL-BASED DECISION RULES
+A model supports a climate component when its mean production-scale scenario effect is negative, its 95% governorate-bootstrap interval lies entirely below zero, bootstrap directional stability is at least 90%, at least 80% of leave-one-governorate-out estimates remain negative, common-support coverage is at least 70%, and at least 10 governorates are represented.
+A cross-model climate component is supported when at least 2 of the three models satisfy the model-level rule.
+Regional heterogeneity is supported for a stressor when at least 2 models have a 95% governorate-bootstrap interval for North minus Center/South that excludes zero, with the same contrast direction in at least 2 models.
+Full H1 support requires temperature support, soil-moisture support, and regional heterogeneity for at least one of the two climate stressors.
+If only some components meet the criteria, the decision is partial H1 support and the missing component(s) are named explicitly.
+No p-values or null-hypothesis significance tests are used.
+
+METHOD AND INTERPRETATION
+Each fitted model is evaluated on its original 2000-2012 training observations (expected N = 192, 15 governorates). The observed covariates are held fixed except for the scenario variable.
+Temperature scenario: increase December temperature by 1 C. Soil-moisture scenario: decrease the governorate-standardized autumn soil-moisture value sm_z by 0.5 standard deviations, then recompute the deficit, wetness and regional interaction features used by the fitted model.
+The GAM and mixed-effects log1p predictions use the Duan smearing correction used by their forecasting workflows. QR log1p predictions use expm1(), matching the quantile-regression forecasting workflow. Governorate-standardized responses are converted using the saved governorate-specific training means and standard deviations.
+Effects are averaged across governorates equally: the annual scenario effects are first averaged within each governorate, then governorates receive equal weight. The cluster bootstrap resamples governorates, not individual year rows, and the fitted models are held fixed. The model-level decision also requires the 95% cluster-bootstrap interval to lie below zero and at least 80% of leave-one-governorate-out estimates to remain negative.
+The 95% bootstrap intervals quantify variation across governorate resamples conditional on the fitted models. They do not include full parameter-estimation uncertainty from refitting each model in every replicate. QR results describe the conditional median response, whereas GAM and mixed-effects predictions represent their fitted response summaries.
+The stress scenarios are restricted to common support: both the baseline and shifted predictor values must lie between the 2nd and 98th percentiles of the model's training predictor distribution. Coverage is reported for every model and stressor.
+These are model-based adjusted associations, not causal effects. Production is total production and can also vary with harvested area, management and other unmodeled factors.
+The results apply to the forecasting models fitted on 2000-2012 and their 15-governorate training design. They are not a refit of the models on the complete 2000-2018 period and are not a replacement for a separate full-period inferential model.
+
+Dataset: /home/badisz/Downloads/Modeling/model_table.csv
+Inference script directory: /home/badisz/Downloads/inference
+Bootstrap replicates: 2000
+Bootstrap seed: 20261127
+Bootstrap directional-stability threshold: 90%
+Leave-one-governorate-out negative-direction threshold: 80%
+Scenario support quantiles: 0.02 to 0.98

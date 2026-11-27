@@ -1,0 +1,7 @@
+"model","stressor","contrast","north_governorates","center_south_governorates","north_minus_center_south_1000_qt","bootstrap_ci_95_low","bootstrap_ci_95_high","bootstrap_sign_stability_pct","regional_heterogeneity_supported"
+"GAM","Warmer December (+1 C)","North minus Center/South effect",8,7,-74.4057052130921,-98.6337899364977,-46.1240252424618,100,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","North minus Center/South effect",8,7,-4.01568023245664,-4.01595650801713,-4.01544260090813,100,TRUE
+"QR","Warmer December (+1 C)","North minus Center/South effect",8,7,-7.43445901018981,-13.2162586471879,-1.23453626543537,99,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","North minus Center/South effect",8,7,-2.56093940367783,-17.9231837111276,11.972790387028,62.6,FALSE
+"MIXED","Warmer December (+1 C)","North minus Center/South effect",8,7,-4.98968493888354,-10.4635120773184,0.408532355185316,96.2,FALSE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","North minus Center/South effect",8,7,-4.75620642064027,-21.1742517312385,11.4469506231047,71.9,FALSE

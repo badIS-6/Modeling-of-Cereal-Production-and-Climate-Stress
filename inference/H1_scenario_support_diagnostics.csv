@@ -1,0 +1,7 @@
+"model","stressor","scenario_variable","predictor_change","support_low","support_high","observations_original","observations_eligible","coverage_pct","model_response_retransformed_to_production"
+"GAM","Warmer December (+1 C)","temp_dec_c",1,6.75237693335424,14.6693530133976,192,170,88.5416666666667,TRUE
+"GAM","Worse autumn soil moisture (-0.5 sm_z)","sm_z",-0.5,-1.623074403503,1.75203761618147,192,158,82.2916666666667,TRUE
+"QR","Warmer December (+1 C)","temp_dec_c",1,6.75237693335424,14.6693530133976,192,170,88.5416666666667,TRUE
+"QR","Worse autumn soil moisture (-0.5 sm_z)","sm_z",-0.5,-1.623074403503,1.75203761618147,192,158,82.2916666666667,TRUE
+"MIXED","Warmer December (+1 C)","temp_dec_c",1,6.75237693335424,14.6693530133976,192,170,88.5416666666667,TRUE
+"MIXED","Worse autumn soil moisture (-0.5 sm_z)","sm_z",-0.5,-1.623074403503,1.75203761618147,192,158,82.2916666666667,TRUE
