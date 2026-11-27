@@ -1,6 +1,0 @@
-"Model","Prediction","N","R2","RMSE","MAE","Median_Pinball_Loss"
-"baseline_quadratic__governorate_z","Median quantile - clipped at zero; secondary",89,0.769178974074537,312.865681589885,192.083032034449,96.0415160172245
-"baseline_quadratic__governorate_z","Rearranged median - clipped; supplementary",89,0.76289305261358,317.097182998673,194.861365041515,97.4306825207574
-"baseline_quadratic__governorate_z","Median quantile - unclipped; primary",89,0.762870792411837,317.112067593326,203.056899549906,101.528449774953
-"baseline_quadratic__governorate_z","Rearranged median - unclipped; supplementary",89,0.756604803337992,321.274492261235,205.805532679565,102.902766339782
-"baseline_quadratic__governorate_z","Governorate training-period median baseline",89,0.72673072314389,340.42045514019,212.865202247191,106.432601123596

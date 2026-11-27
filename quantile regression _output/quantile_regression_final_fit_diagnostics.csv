@@ -1,6 +1,0 @@
-"Tau","Status","N_Training","Design_Rank","Design_Columns","Nonunique_Warning","Warning_Count","Warning_Details","Failure_Reason"
-0.1,"SUCCESS",192,24,24,FALSE,0,,
-0.25,"SUCCESS",192,24,24,TRUE,1,"Solution may be nonunique",
-0.5,"SUCCESS",192,24,24,TRUE,1,"Solution may be nonunique",
-0.75,"SUCCESS",192,24,24,TRUE,1,"Solution may be nonunique",
-0.9,"SUCCESS",192,24,24,FALSE,0,,

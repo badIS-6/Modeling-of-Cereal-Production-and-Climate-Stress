@@ -1,4 +1,0 @@
-"Candidate_ID","Model_Name","Fixed_Specification","Response_Transformation","CV_N","CV_R2","CV_RMSE","CV_MAE","CV_Median_Pinball_Loss","Complexity_Rank","Successful_Folds","Folds_With_Nonunique_Warning","Rank_RMSE","Rank_MAE","Average_Rank","CV_Rank"
-"Q07","baseline_quadratic__governorate_z","baseline_quadratic","governorate_z",88,0.837791297220755,285.710980385104,170.916493456491,85.4582467282455,2,3,2,1,1,1,1
-"Q04","baseline_quadratic__log1p","baseline_quadratic","log1p",88,0.780885811683458,332.066531598714,192.942882535106,96.4714412675531,2,3,2,4,3,3.5,2
-"Q05","threshold_full__log1p","threshold_full","log1p",88,0.752274130611958,353.08196627224,191.246820370609,95.6234101853045,3,3,2,6,2,4,3
