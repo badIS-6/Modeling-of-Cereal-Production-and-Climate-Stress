@@ -1,0 +1,15 @@
+BENCHMARK SCOPE
+All metrics are calculated directly from the three revised model prediction files using the common 2013-2018 governorate-year observations.
+Only unclipped production predictions are used for the primary comparison.
+The R-squared value is the test-set coefficient of determination: 1 - SSE/SST, using the common test observations.
+
+RANKING
+Models are ranked by the equal-weight mean of their R2, RMSE and MAE ranks. Higher R2 is better; lower RMSE and MAE are better.
+The top-two flag identifies the two best predictive performers among the three supplied prediction files. It is a predictive shortlist, not evidence that H1 is supported.
+
+INFERENCE AND VALIDATION LIMITS
+A predictive ranking does not establish the hypothesized direction, statistical significance or regional heterogeneity in H1.
+The revised Mixed Effects, Quantile Regression and GAM candidate specifications all include harvest-year trend terms and explicit regional temperature and soil-moisture structure.
+The 2013-2018 test set is used here to rank the supplied models. Therefore, after this comparison it is no longer an untouched final test set for an unbiased performance claim. Use a new outer temporal holdout or an independent evaluation period for that purpose.
+These are retrospective conditional predictions using observed test-period predictors; they are not forecasts of future climate predictors.
+Use the separate full-period inference workflow for H1 estimates, uncertainty intervals, regional contrasts and multiple-testing correction.

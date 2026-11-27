@@ -1,0 +1,4 @@
+"Model","Prediction_Rule","N_Test","First_Test_Year","Last_Test_Year","R2","RMSE","MAE","Metrics_Valid","R2_Rank","RMSE_Rank","MAE_Rank","Combined_Mean_Rank","Overall_Rank","Top_2_Predictive_Shortlist","H1_Candidate","H1_Role"
+"Mixed Effects","Selected nlme mixed-effects model; governorate-conditional unclipped prediction",89,2013,2018,0.856119298572626,247.013970991216,164.509574612595,TRUE,1,1,1,1,1,TRUE,TRUE,"Hierarchical candidate with regional temperature and soil-moisture terms"
+"Quantile Regression","Selected median quantile model (tau = 0.50); unclipped prediction",89,2013,2018,0.762870792411837,317.112067593326,203.056899549906,TRUE,2,2,2,2,2,TRUE,TRUE,"Median conditional-quantile candidate with regional temperature and soil-moisture terms"
+"GAM","Selected GAM; unclipped prediction",89,2013,2018,0.7049710679624,353.714242972574,278.462170287591,TRUE,3,3,3,3,3,FALSE,TRUE,"Nonlinear candidate with region-specific temperature and soil-moisture smooths"
